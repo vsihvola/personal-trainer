@@ -1,0 +1,60 @@
+Note! You have to send link to Github repository (or some other public source) and upload screenshots 
+from the pages to the moodle. At the end of the task you have to do Self Evaluation.
+
+All tasks are scored from 1 to 5.
+
+To get score 5 you have to use some other 3rd party components or libraries that we have covered in the lectures. 
+You can also add some nice extra functionalities to your solution.
+
+If you need help during the task, contact juha.hinkula@haaga-helia.fi. 
+We can have personal skype session or meeting at the Pasila campus.
+
+Task Case:
+
+Personal Trainer company needs front end app for their customer database. 
+Database contains info about customers and their trainings. 
+They have REST API and documentation that contains all information needed for front end development. 
+Your task is to implement front end for them using either React.js or Vue.js.
+
+Link to REST API document
+https://haagahelia-my.sharepoint.com/personal/h01270_haaga-helia_fi/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fh01270%5Fhaaga%2Dhelia%5Ffi%2FDocuments%2FFrontEndProgramming%2FCustomer%20Restful%20API%2Epdf&parent=%2Fpersonal%2Fh01270%5Fhaaga%2Dhelia%5Ffi%2FDocuments%2FFrontEndProgramming&originalPath=aHR0cHM6Ly9oYWFnYWhlbGlhLW15LnNoYXJlcG9pbnQuY29tLzpiOi9nL3BlcnNvbmFsL2gwMTI3MF9oYWFnYS1oZWxpYV9maS9FWm9aZmdXMGw1bERsUTR0NFJDQXZTd0JOemxCTXpkbkU2QUItMkhXQnRBWm5BP3J0aW1lPWQ3amx0R0syMkVn
+
+What to do if there is no data in the database?
+
+Instructions
+
+Task 1.
+
+Create pages to list customers and trainings
+
+List pages should contain following features:
+
+- Sorting
+- Searching
+
+Note! You can use moment.js library for date formatting
+
+
+Task 2.
+
+Add following CRUD functions to the list pages
+
+- Add  & Edit Customer
+- Delete existing customer (Add also yes/no confirmation dialog)
+- Add training to customer
+- Delete training (Add also yes/no confirmation dialog)
+
+Task 3.
+
+-Add calendar page where personal trainer can see all trainings (monthly, weekly, daily). See example screenshot.
+-Deploy your app to some cloud server
+
+Bonus Task (earn some extra points).
+
+-Add statistics page where user can see the amount of minutes by different activities. 
+-Show the statistics in bar chart (example screenshot)
+
+HInts!
+
+Find some react component to show charts (for example https://github.com/recharts/recharts)
+With lodash javascript utility library (https://lodash.com/) you can group arrays and calculate sums (groupBy, sumBy)

@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rt-td {
+  margin: auto !important;
+}
+
+.rt-th {
+  margin: auto;
+  padding: 10px !important;
+}
+
+.Mui-selected {
+  border-bottom-color: white !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: transparent !important;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
